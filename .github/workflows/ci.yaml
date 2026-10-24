@@ -22,7 +22,6 @@ jobs:
         python -m pip install -r requiremeents.txt
     - name: Run tests
       run: python -m pytest -v
-    - name: If test failed
-      run: |
-        if:  failure()
-        echo "failed"
+    - name: If test failed 
+      if:  failure()
+      run: echo "failed"
