@@ -3,7 +3,9 @@ on:
  push:
   paths: 
    - ".github/workflows/ci.yaml"
-
+   - "app/**"
+   - "test/**"
+   - "Dockerfile"
  workflow_dispatch:
 jobs:
   ci:
