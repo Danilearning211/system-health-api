@@ -26,3 +26,4 @@ python -m pytest -v
 The API and basic tests are implemented. Docker setup and GitHub Actions CI are the next steps.
 
 This project is part of my hands-on practice with Linux, Docker and CI/CD.
+you can import it on your server 
