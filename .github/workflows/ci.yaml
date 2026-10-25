@@ -1,6 +1,9 @@
 name: Python api
 on:
  push:
+  paths: 
+   - ".github/workflows/ci.yaml"
+
  workflow_dispatch:
 jobs:
   ci:
