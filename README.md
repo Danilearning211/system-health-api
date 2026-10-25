@@ -4,7 +4,7 @@ A simple Python API to check application health and get basic system information
 
 ## Endpoints
 
-- `GET /health` - Check if the application is running.
+- `GET /health` - Check if the application is running or not.
 - `GET /status` - Get Python version, platform and uptime.
 
 ## Built with
