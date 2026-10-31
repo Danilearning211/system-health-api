@@ -1,4 +1,4 @@
-name: Python api
+name: Python api health 
 on:
  push:
   paths: 
@@ -19,8 +19,6 @@ jobs:
        python-version: "3.12"
     - name: List files
       run: ls
-    - name: List test
-      run: ls test
     - name: Install dependecies
       run: |
         python -m pip install --upgrade pip
